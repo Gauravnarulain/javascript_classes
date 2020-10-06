@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // array is used to store multiple values in a single varibale
+        // why we use array? to store multiple value in a single varibale
+        // const cars = ['Honda','Maruti']; // here car is a array variable
+        // const cars = new Array('Honda','Maruti');
+        
+        const books = ['Let us C','C#','PHP','C++'];
+      //  console.log(books);
+        // var i=0;
+        // while(i<books.length){
+        //     document.write("<br/>");
+        //     document.writeln("Book Title is  ",books[i]);
+        //     i++;
+        // }
+
+        // for(var i=0;i<books.length;i++){
+        //     document.writeln("Book Title is  " + books[i] + "<br/>");
+        // }
+
+        // books.forEach((element,index) => {
+        //     document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        // });
+
+        // simlpe function
+
+        // books.forEach(printBooks);
+
+        // function printBooks(element,index){
+        //     document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        // }
+
+        // books.map((element,index)=>{
+        //     document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        // });
+
+
+        // books.push("SQL");    
+
+        // books.map(printBooks);
+        // function printBooks(element,index){
+        //     document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        // }
+
+
+        // books.pop(); // LIFO last in first OUT
+
+
+        // books.map(printBooks);
+        // function printBooks(element,index){
+        //     document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        // }
+
+        // // find the length
+        // console.log(books.length); 
+
+        // //convert into a string
+
+        // console.log(books.toString());
+
+        // console.log(books.join(" - "));
+
+        // console.log(books.shift());
+
+        // console.log(books); // get the shift output
+
+        // console.log(books.unshift("Unity Framework"));
+
+        // console.log(books);
+
+
+        // console.log(delete books[1]);
+
+       
+
+       // console.log("After delete");
+
+        books.splice(2,0,'new Book1','New book2','new book3');
+
+        books.map(printBooks);
+        function printBooks(element,index){
+            document.writeln("Book's Index is " + index + " Title is  " + element + "<br/>")
+        }
+
+        // var arrayToString = books.toString();
+        // console.log(arrayToString);
+        // if(arrayToString==null){
+
+        // }else{
+        // document.getElementById("demo").innerHTML= arrayToString;
+        // }
+
+    </script>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+</html>
