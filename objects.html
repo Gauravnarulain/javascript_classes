@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script>
+         // object is a thing in the real world
+
+         const car = new Object();
+
+         car.model = "Maruti";
+         car.color="black";
+
+         console.log(car.model);
+
+         const mobile = {
+            type:'iPhone',
+            color:'Midnight Green',
+            price:'96000',
+            extra:[{
+                0:"hello this is function one",
+                1:"hello this is function two",
+                2:"hello this is function three",
+                3:"hello this is function four",
+                4:"hello this is function five",
+                5:"hello this is function six",
+            }],
+            start: function(){ // action
+                return "Press the side button to start";
+            },
+            reboot: ()=>{
+                return "Hold side button to reboot!!!";
+            }
+         };
+
+        //  console.log(mobile.color);
+        //  console.log(mobile.start());
+        //  console.log(mobile.reboot());
+
+         let features = mobile.extra;
+
+         // JSON.parse(); string to an array
+         // JSON.stringify(); // array to string 
+
+        //  features.forEach((elements,index)=>{
+        //     console.log(index);
+        //  });
+        // features.map((v,i)=>{
+        //     console.log(v);
+        // });
+        // for(let i=0;i<features.length;i++){
+        //     console.log(features);
+        // }
+
+         
+     </script>
+</head>
+<body>
+    
+</body>
+</html>
